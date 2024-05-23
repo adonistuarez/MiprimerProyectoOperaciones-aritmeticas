@@ -1,0 +1,25 @@
+package com.example.demo;
+import java.util.Scanner;
+
+public class MiprimerPROYECTO1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first number: ");
+        int number1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int number2 = scanner.nextInt();
+
+        int sum = number1 + number2;
+        System.out.println("The result of the sum is "+(sum));
+        double division = (double) number1 / number2;
+        System.out.println("the result of the division is "+(division));
+        int multiplication = number1 * number2;
+        System.out.println("The result of the multiplication is " +(multiplication));
+        int subtraction = number1 - number2;
+        System.out.println("The result of the subtraction is " +(subtraction));
+        scanner.close();
+    }
+
+}
